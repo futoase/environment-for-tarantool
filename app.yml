@@ -1,0 +1,8 @@
+---
+- hosts: all
+  sudo: true
+  roles:
+    - apt-update
+    - apt
+    - luarocks
+    - tarantool

@@ -1,0 +1,4 @@
+---
+- name: install the luarocks
+  apt: name=luarocks
+       update_cache=yes

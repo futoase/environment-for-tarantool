@@ -1,0 +1,2 @@
+deb http://tarantool.org/dist/master/ubuntu/ trusty main
+deb-src http://tarantool.org/dist/master/ubuntu/ trusty main

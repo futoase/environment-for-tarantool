@@ -1,0 +1,8 @@
+---
+- name: add new apt-key for tarantool.
+  apt_key: url=http://tarantool.org/dist/public.key
+
+- name: add new repository for tarantool in the apt.list.
+  template: src=tarantool.list
+            dest=/etc/apt/sources.list.d/tarantool.list
+            mode=0644

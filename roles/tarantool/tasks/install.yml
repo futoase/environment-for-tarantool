@@ -1,0 +1,4 @@
+---
+- name: install the tarantool
+  apt: name=tarantool
+       update_cache=yes

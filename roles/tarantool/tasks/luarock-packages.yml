@@ -1,0 +1,3 @@
+---
+- name: install the luarock-packages
+  shell: luarocks install http://rocks.tarantool.org/http-scm-1.rockspec

@@ -1,0 +1,6 @@
+---
+- name: install the packages
+  apt: name={{ item }}
+  with_items:
+    - gcc
+    - git
